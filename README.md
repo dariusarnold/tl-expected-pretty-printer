@@ -1,4 +1,4 @@
-#TartanLama/Expected pretty printer for gdb
+# TartanLama/Expected visualizer for gdb
 
 Pretty prints [tl::expected](https://github.com/TartanLlama/expected) in GDB. Also provides better output for GDB based debuggers like CLion.
 
