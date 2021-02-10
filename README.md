@@ -18,5 +18,5 @@ This will install the pretty printer globally, so every instance of gdb can use 
     gdb.pretty_printers.append(register_printer)
     end
     ```
-- change \<PATH\> to the path of this repository (using \\\ as a path separator under windows)
+- change \<PATH\> to the path of this repository (using \\\ as a path separator under windows). You can use an absolute path or a relative path, originating from the location of your .gdbinit file
 - gdb should now use the pretty printer to format any tl::expected<X, Y>
